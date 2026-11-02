@@ -35,6 +35,6 @@ class Pipoca < Formula
   end
 
   test do
-    assert_match "pipoca up", shell_output("#{bin}/pipoca help 2>&1", 2)
+    assert_match "pipoca up", shell_output("#{bin}/pipoca --help")
   end
 end
