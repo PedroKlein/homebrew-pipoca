@@ -25,7 +25,9 @@ cask "pipoca-app" do
   ]
 
   caveats <<~EOS
-    Pipoca isn't signed by Apple yet. The first time, open it with
-    right-click > Open, or allow it under System Settings > Privacy & Security.
+    Pipoca isn't signed with an Apple Developer ID yet, so macOS says it
+    is damaged. Clear the download's quarantine flag once to open it:
+      xattr -dr com.apple.quarantine #{appdir}/Pipoca.app
+    Updates the app installs itself don't need this.
   EOS
 end
