@@ -5,7 +5,7 @@ cask "pipoca-app" do
   url "https://github.com/PedroKlein/pipoca/releases/download/v#{version}/Pipoca_#{version}_aarch64.dmg"
   name "Pipoca"
   desc "Desktop app for running Pi coding-agent sessions"
-  homepage "https://github.com/PedroKlein/pipoca"
+  homepage "https://pipoca.dev"
 
   livecheck do
     url :url
