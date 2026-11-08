@@ -1,6 +1,6 @@
 class Pipoca < Formula
   desc "Run Pi coding-agent sessions on your own machines, from any browser"
-  homepage "https://github.com/PedroKlein/pipoca"
+  homepage "https://pipoca.dev"
   version "0.1.3"
 
   on_macos do
