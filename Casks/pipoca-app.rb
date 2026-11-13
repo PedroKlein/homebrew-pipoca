@@ -1,6 +1,6 @@
 cask "pipoca-app" do
-  version "0.1.3"
-  sha256 "c6ebe41bc733f436d76e327584307c3ad100c15ad36ff94d276f30f42102bef5"
+  version "0.1.4"
+  sha256 "e07dd0cde540537877170825d65128c663de5e0d0aae6d022b0780cb36751267"
 
   url "https://github.com/PedroKlein/pipoca/releases/download/v#{version}/Pipoca_#{version}_aarch64.dmg"
   name "Pipoca"
